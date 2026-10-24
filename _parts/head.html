@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESC}}">
+<meta name="author" content="Md Hasibul Hossain">
+<link rel="canonical" href="https://mdhasibulhossain263-hk.github.io/hasain-academic-website/{{PAGE}}">
+
+<!-- Open Graph / social preview (shown when the link is pasted in email, WhatsApp, LinkedIn) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Md Hasibul Hossain">
+<meta property="og:title" content="{{TITLE}}">
+<meta property="og:description" content="{{DESC}}">
+<meta property="og:url" content="https://mdhasibulhossain263-hk.github.io/hasain-academic-website/{{PAGE}}">
+<meta property="og:image" content="https://mdhasibulhossain263-hk.github.io/hasain-academic-website/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Icons -->
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<meta name="theme-color" content="#16365c" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b141d" media="(prefers-color-scheme: dark)">
+
+<!-- Typefaces -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- Apply the saved appearance before first paint so the page never flashes. -->
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem("mhh-theme");
+      if (saved === "dark" || saved === "light") {
+        document.documentElement.setAttribute("data-theme", saved);
+      }
+    } catch (e) { /* private window or blocked storage — use system setting */ }
+  })();
+</script>
+{{JSONLD}}
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- ======================================================================
+     SITE HEADER  —  identical on every page.
+     If you edit these links, make the same edit in every .html file.
+     ====================================================================== -->
+<header class="site-header">
+  <nav class="container nav" aria-label="Primary">
+
+    <a class="brand" href="index.html">
+      <img class="brand__mark" src="assets/img/logo.svg" width="34" height="34" alt="">
+      <span>
+        Md Hasibul Hossain
+        <span class="brand__sub">Civil &amp; Environmental Engineering</span>
+      </span>
+    </a>
+
+    <ul class="nav__links" id="primary-navigation">
+      <li><a href="index.html"{{NAV_HOME}}>About</a></li>
+      <li><a href="research.html"{{NAV_RESEARCH}}>Research</a></li>
+      <li><a href="experience.html"{{NAV_EXPERIENCE}}>Experience</a></li>
+      <li><a href="portfolio.html"{{NAV_PORTFOLIO}}>Portfolio</a></li>
+      <li><a href="teaching.html"{{NAV_TEACHING}}>Teaching</a></li>
+      <li><a href="cv.html"{{NAV_CV}}>CV</a></li>
+      <li><a href="contact.html"{{NAV_CONTACT}}>Contact</a></li>
+    </ul>
+
+    <div class="nav__actions">
+      <button class="theme-toggle" type="button" data-theme-toggle
+              aria-label="Switch appearance">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4.2"/>
+          <path d="M12 2.6v2M12 19.4v2M21.4 12h-2M4.6 12h-2M18.6 5.4l-1.4 1.4M6.8 17.2l-1.4 1.4M18.6 18.6l-1.4-1.4M6.8 6.8L5.4 5.4"/>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M20.5 14.3A8.5 8.5 0 1 1 9.7 3.5a6.8 6.8 0 0 0 10.8 10.8z"/>
+        </svg>
+      </button>
+
+      <button class="nav__toggle" type="button" data-nav-toggle
+              aria-expanded="false" aria-controls="primary-navigation"
+              aria-label="Open menu">
+        <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="1.9" stroke-linecap="round" aria-hidden="true">
+          <path d="M3.5 6.5h17M3.5 12h17M3.5 17.5h17"/>
+        </svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="1.9" stroke-linecap="round" aria-hidden="true">
+          <path d="M5.5 5.5l13 13M18.5 5.5l-13 13"/>
+        </svg>
+      </button>
+    </div>
+
+  </nav>
+</header>
+
+<main id="main">
