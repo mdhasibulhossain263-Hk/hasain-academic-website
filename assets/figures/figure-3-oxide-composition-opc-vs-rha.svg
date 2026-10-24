@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 920 390" role="img"
+               aria-labelledby="fig3-title fig3-desc" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /*  Standalone copy of a figure from mdhasibulhossain263-hk.github.io/hasain-academic-website
+        Colours are defined here so the file works on its own in any
+        viewer, and in Word, PowerPoint, Illustrator or Inkscape.       */
+    :root {
+      --font-display: Georgia, "Times New Roman", serif;
+      --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      --font-mono: Menlo, Consolas, monospace;
+      --fig-bg: #ffffff;
+      --fig-panel: #f5f3ef;
+      --fig-stroke: #b9b2a6;
+      --fig-ink: #1b2a3a;
+      --fig-ink-soft: #5c6b7a;
+      --fig-1: #16365c;
+      --fig-2: #1f7a6a;
+      --fig-3: #b4802a;
+      --fig-4: #9b4a2f;
+      --fig-5: #5a6b86;
+      --fig-grid: #e6e2da;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fig-bg: #131f2b; --fig-panel: #192835; --fig-stroke: #46596b;
+        --fig-ink: #dde6ee; --fig-ink-soft: #9aaab8;
+        --fig-1: #7fb0e8; --fig-2: #4fc0aa; --fig-3: #e0a94f;
+        --fig-4: #e08a6a; --fig-5: #93a6bd; --fig-grid: #24333f;
+      }
+    }
+    svg { background: var(--fig-bg); }
+  </style>
+
+            <title id="fig3-title">Oxide composition of ordinary Portland cement and rice husk ash</title>
+            <desc id="fig3-desc">A grouped bar chart comparing the oxide
+              composition by mass of ordinary Portland cement and the rice husk ash
+              used in the study. The ash is 62.3 per cent silica against 20.49 per
+              cent for the cement, while the cement is 63.85 per cent lime against
+              12.56 per cent for the ash.</desc>
+
+            <text x="8" y="22" font-family="var(--font-body)" font-size="11.5"
+                  font-weight="600" fill="var(--fig-ink)">Oxide composition by mass (%)</text>
+
+            <!-- legend -->
+            <rect x="600" y="12" width="13" height="13" rx="2" fill="var(--fig-5)"/>
+            <text x="620" y="23" font-family="var(--font-body)" font-size="10.5"
+                  fill="var(--fig-ink-soft)">Ordinary Portland cement</text>
+            <rect x="780" y="12" width="13" height="13" rx="2" fill="var(--fig-2)"/>
+            <text x="800" y="23" font-family="var(--font-body)" font-size="10.5"
+                  font-weight="650" fill="var(--fig-2)">Rice husk ash</text>
+
+            <g stroke="var(--fig-grid)" stroke-width="1">
+              <path d="M170.0 46 V354 M268.9 46 V354 M367.7 46 V354 M466.6 46 V354 M565.4 46 V354 M664.3 46 V354 M763.1 46 V354 M862.0 46 V354"/>
+            </g>
+            <text x="156" y="78" text-anchor="end" font-family="var(--font-body)" font-size="11.5" font-weight="600" fill="var(--fig-ink)">SiO&#8322;</text>
+            <rect x="170" y="56" width="202.6" height="15" rx="2" fill="var(--fig-5)"/>
+            <text x="379.6" y="68" font-family="var(--font-body)" font-size="10" fill="var(--fig-ink-soft)">20.49 %</text>
+            <rect x="170" y="75" width="615.9" height="15" rx="2" fill="var(--fig-2)"/>
+            <text x="792.9" y="87" font-family="var(--font-body)" font-size="10" font-weight="600" fill="var(--fig-2)">62.30 %</text>
+            <text x="156" y="130" text-anchor="end" font-family="var(--font-body)" font-size="11.5" font-weight="600" fill="var(--fig-ink)">CaO</text>
+            <rect x="170" y="108" width="631.2" height="15" rx="2" fill="var(--fig-5)"/>
+            <text x="808.2" y="120" font-family="var(--font-body)" font-size="10" fill="var(--fig-ink-soft)">63.85 %</text>
+            <rect x="170" y="127" width="124.2" height="15" rx="2" fill="var(--fig-2)"/>
+            <text x="301.2" y="139" font-family="var(--font-body)" font-size="10" font-weight="600" fill="var(--fig-2)">12.56 %</text>
+            <text x="156" y="182" text-anchor="end" font-family="var(--font-body)" font-size="11.5" font-weight="600" fill="var(--fig-ink)">Al&#8322;O&#8323;</text>
+            <rect x="170" y="160" width="49.2" height="15" rx="2" fill="var(--fig-5)"/>
+            <text x="226.2" y="172" font-family="var(--font-body)" font-size="10" fill="var(--fig-ink-soft)">4.98 %</text>
+            <rect x="170" y="179" width="99.9" height="15" rx="2" fill="var(--fig-2)"/>
+            <text x="276.9" y="191" font-family="var(--font-body)" font-size="10" font-weight="600" fill="var(--fig-2)">10.11 %</text>
+            <text x="156" y="234" text-anchor="end" font-family="var(--font-body)" font-size="11.5" font-weight="600" fill="var(--fig-ink)">Fe&#8322;O&#8323;</text>
+            <rect x="170" y="212" width="30.7" height="15" rx="2" fill="var(--fig-5)"/>
+            <text x="207.7" y="224" font-family="var(--font-body)" font-size="10" fill="var(--fig-ink-soft)">3.11 %</text>
+            <rect x="170" y="231" width="64.1" height="15" rx="2" fill="var(--fig-2)"/>
+            <text x="241.1" y="243" font-family="var(--font-body)" font-size="10" font-weight="600" fill="var(--fig-2)">6.48 %</text>
+            <text x="156" y="286" text-anchor="end" font-family="var(--font-body)" font-size="11.5" font-weight="600" fill="var(--fig-ink)">MgO</text>
+            <rect x="170" y="264" width="25.4" height="15" rx="2" fill="var(--fig-5)"/>
+            <text x="202.4" y="276" font-family="var(--font-body)" font-size="10" fill="var(--fig-ink-soft)">2.57 %</text>
+            <rect x="170" y="283" width="34.6" height="15" rx="2" fill="var(--fig-2)"/>
+            <text x="211.6" y="295" font-family="var(--font-body)" font-size="10" font-weight="600" fill="var(--fig-2)">3.50 %</text>
+            <text x="156" y="338" text-anchor="end" font-family="var(--font-body)" font-size="11.5" font-weight="600" fill="var(--fig-ink)">SO&#8323;</text>
+            <rect x="170" y="316" width="26.6" height="15" rx="2" fill="var(--fig-5)"/>
+            <text x="203.6" y="328" font-family="var(--font-body)" font-size="10" fill="var(--fig-ink-soft)">2.69 %</text>
+            <rect x="170" y="335" width="6.0" height="15" rx="2" fill="var(--fig-2)"/>
+            <text x="183.0" y="347" font-family="var(--font-body)" font-size="10" font-weight="600" fill="var(--fig-2)">0.61 %</text>
+            <g>
+  <text x="170.0" y="370" text-anchor="middle" font-family="var(--font-body)" font-size="9.5" fill="var(--fig-ink-soft)">0</text>
+  <text x="268.9" y="370" text-anchor="middle" font-family="var(--font-body)" font-size="9.5" fill="var(--fig-ink-soft)">10</text>
+  <text x="367.7" y="370" text-anchor="middle" font-family="var(--font-body)" font-size="9.5" fill="var(--fig-ink-soft)">20</text>
+  <text x="466.6" y="370" text-anchor="middle" font-family="var(--font-body)" font-size="9.5" fill="var(--fig-ink-soft)">30</text>
+  <text x="565.4" y="370" text-anchor="middle" font-family="var(--font-body)" font-size="9.5" fill="var(--fig-ink-soft)">40</text>
+  <text x="664.3" y="370" text-anchor="middle" font-family="var(--font-body)" font-size="9.5" fill="var(--fig-ink-soft)">50</text>
+  <text x="763.1" y="370" text-anchor="middle" font-family="var(--font-body)" font-size="9.5" fill="var(--fig-ink-soft)">60</text>
+  <text x="862.0" y="370" text-anchor="middle" font-family="var(--font-body)" font-size="9.5" fill="var(--fig-ink-soft)">70</text>
+            </g>
+            <path d="M170 46 V354" stroke="var(--fig-stroke)" stroke-width="1.3" fill="none"/>
+
+            <text x="516" y="382" text-anchor="middle" font-family="var(--font-body)"
+                  font-size="10" fill="var(--fig-ink-soft)">% by mass</text>
+          </svg>

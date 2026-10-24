@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 560 430" role="img"
+                 aria-labelledby="fig-framework-title fig-framework-desc" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /*  Standalone copy of a figure from mdhasibulhossain263-hk.github.io/hasain-academic-website
+        Colours are defined here so the file works on its own in any
+        viewer, and in Word, PowerPoint, Illustrator or Inkscape.       */
+    :root {
+      --font-display: Georgia, "Times New Roman", serif;
+      --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      --font-mono: Menlo, Consolas, monospace;
+      --fig-bg: #ffffff;
+      --fig-panel: #f5f3ef;
+      --fig-stroke: #b9b2a6;
+      --fig-ink: #1b2a3a;
+      --fig-ink-soft: #5c6b7a;
+      --fig-1: #16365c;
+      --fig-2: #1f7a6a;
+      --fig-3: #b4802a;
+      --fig-4: #9b4a2f;
+      --fig-5: #5a6b86;
+      --fig-grid: #e6e2da;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fig-bg: #131f2b; --fig-panel: #192835; --fig-stroke: #46596b;
+        --fig-ink: #dde6ee; --fig-ink-soft: #9aaab8;
+        --fig-1: #7fb0e8; --fig-2: #4fc0aa; --fig-3: #e0a94f;
+        --fig-4: #e08a6a; --fig-5: #93a6bd; --fig-grid: #24333f;
+      }
+    }
+    svg { background: var(--fig-bg); }
+  </style>
+
+              <title id="fig-framework-title">Research framework</title>
+              <desc id="fig-framework-desc">Three laboratory research strands —
+                sustainable construction materials, environmental assessment and
+                modelling, and ground improvement and geotechnics — converge through
+                five years of field practice into a postgraduate research direction
+                on climate-resilient infrastructure in the Global South.</desc>
+
+              <!-- Column headings -->
+              <g font-family="var(--font-body)" font-size="10.5" font-weight="600"
+                 fill="var(--fig-ink-soft)" text-anchor="middle"
+                 letter-spacing="0.08em">
+                <text x="95"  y="20">STRAND I</text>
+                <text x="280" y="20">STRAND II</text>
+                <text x="465" y="20">STRAND III</text>
+              </g>
+
+              <!-- Strand boxes -->
+              <g>
+                <rect x="12" y="30" width="166" height="98" rx="8"
+                      fill="var(--fig-panel)" stroke="var(--fig-1)" stroke-width="1.6"/>
+                <rect x="12" y="30" width="166" height="4" rx="2" fill="var(--fig-1)"/>
+                <text x="95" y="56" text-anchor="middle" font-family="var(--font-display)"
+                      font-size="14.5" font-weight="600" fill="var(--fig-ink)">Sustainable</text>
+                <text x="95" y="73" text-anchor="middle" font-family="var(--font-display)"
+                      font-size="14.5" font-weight="600" fill="var(--fig-ink)">materials</text>
+                <text x="95" y="94" text-anchor="middle" font-family="var(--font-body)"
+                      font-size="10.5" fill="var(--fig-ink-soft)">Rice husk ash as</text>
+                <text x="95" y="108" text-anchor="middle" font-family="var(--font-body)"
+                      font-size="10.5" fill="var(--fig-ink-soft)">cement replacement</text>
+                <text x="95" y="122" text-anchor="middle" font-family="var(--font-body)"
+                      font-size="10" fill="var(--fig-ink-soft)" font-style="italic">2021–2022</text>
+              </g>
+
+              <g>
+                <rect x="197" y="30" width="166" height="98" rx="8"
+                      fill="var(--fig-panel)" stroke="var(--fig-2)" stroke-width="1.6"/>
+                <rect x="197" y="30" width="166" height="4" rx="2" fill="var(--fig-2)"/>
+                <text x="280" y="56" text-anchor="middle" font-family="var(--font-display)"
+                      font-size="14.5" font-weight="600" fill="var(--fig-ink)">Environmental</text>
+                <text x="280" y="73" text-anchor="middle" font-family="var(--font-display)"
+                      font-size="14.5" font-weight="600" fill="var(--fig-ink)">modelling</text>
+                <text x="280" y="94" text-anchor="middle" font-family="var(--font-body)"
+                      font-size="10.5" fill="var(--fig-ink-soft)">ANN forecasting of</text>
+                <text x="280" y="108" text-anchor="middle" font-family="var(--font-body)"
+                      font-size="10.5" fill="var(--fig-ink-soft)">river water quality</text>
+                <text x="280" y="122" text-anchor="middle" font-family="var(--font-body)"
+                      font-size="10" fill="var(--fig-ink-soft)" font-style="italic">2018–2019</text>
+              </g>
+
+              <g>
+                <rect x="382" y="30" width="166" height="98" rx="8"
+                      fill="var(--fig-panel)" stroke="var(--fig-3)" stroke-width="1.6"/>
+                <rect x="382" y="30" width="166" height="4" rx="2" fill="var(--fig-3)"/>
+                <text x="465" y="56" text-anchor="middle" font-family="var(--font-display)"
+                      font-size="14.5" font-weight="600" fill="var(--fig-ink)">Ground</text>
+                <text x="465" y="73" text-anchor="middle" font-family="var(--font-display)"
+                      font-size="14.5" font-weight="600" fill="var(--fig-ink)">improvement</text>
+                <text x="465" y="94" text-anchor="middle" font-family="var(--font-body)"
+                      font-size="10.5" fill="var(--fig-ink-soft)">RAP-infused granular</text>
+                <text x="465" y="108" text-anchor="middle" font-family="var(--font-body)"
+                      font-size="10.5" fill="var(--fig-ink-soft)">piles, PLAXIS 3D</text>
+                <text x="465" y="122" text-anchor="middle" font-family="var(--font-body)"
+                      font-size="10" fill="var(--fig-ink-soft)" font-style="italic">2019–2021</text>
+              </g>
+
+              <!-- Converging connectors -->
+              <g fill="none" stroke="var(--fig-stroke)" stroke-width="1.5">
+                <path d="M95 128 V152 Q95 164 107 164 H268"/>
+                <path d="M280 128 V164"/>
+                <path d="M465 128 V152 Q465 164 453 164 H292"/>
+              </g>
+
+              <!-- Field practice band -->
+              <rect x="60" y="176" width="440" height="62" rx="8"
+                    fill="var(--fig-1)" opacity="0.07"/>
+              <rect x="60" y="176" width="440" height="62" rx="8"
+                    fill="none" stroke="var(--fig-1)" stroke-width="1.4"
+                    stroke-dasharray="4 3"/>
+              <text x="280" y="199" text-anchor="middle" font-family="var(--font-body)"
+                    font-size="10" font-weight="600" letter-spacing="0.09em"
+                    fill="var(--fig-1)">FIVE YEARS OF FIELD PRACTICE</text>
+              <text x="280" y="217" text-anchor="middle" font-family="var(--font-body)"
+                    font-size="11" fill="var(--fig-ink-soft)">ISO 9001 / 14001 / 45001 audits · energy &amp; ETP assessment</text>
+              <text x="280" y="231" text-anchor="middle" font-family="var(--font-body)"
+                    font-size="11" fill="var(--fig-ink-soft)">GRI sustainability reporting · site supervision</text>
+
+              <path d="M280 238 V264" fill="none" stroke="var(--fig-stroke)" stroke-width="1.5"/>
+              <path d="M275 258 l5 7 5-7" fill="none" stroke="var(--fig-stroke)"
+                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+              <!-- Outcome -->
+              <rect x="34" y="272" width="492" height="86" rx="10"
+                    fill="var(--fig-2)" opacity="0.1"/>
+              <rect x="34" y="272" width="492" height="86" rx="10"
+                    fill="none" stroke="var(--fig-2)" stroke-width="1.8"/>
+              <text x="280" y="297" text-anchor="middle" font-family="var(--font-body)"
+                    font-size="10" font-weight="600" letter-spacing="0.09em"
+                    fill="var(--fig-2)">POSTGRADUATE RESEARCH DIRECTION</text>
+              <text x="280" y="321" text-anchor="middle" font-family="var(--font-display)"
+                    font-size="16" font-weight="600" fill="var(--fig-ink)">Climate-resilient infrastructure</text>
+              <text x="280" y="342" text-anchor="middle" font-family="var(--font-display)"
+                    font-size="16" font-weight="600" fill="var(--fig-ink)">for the Global South</text>
+
+              <!-- Footnote row -->
+              <g font-family="var(--font-body)" font-size="10"
+                 fill="var(--fig-ink-soft)" text-anchor="middle">
+                <text x="130" y="390">Low-carbon binders</text>
+                <text x="280" y="390">Impact assessment</text>
+                <text x="430" y="390">Resilient foundations</text>
+              </g>
+              <g stroke="var(--fig-2)" stroke-width="2" stroke-linecap="round">
+                <path d="M104 398 h52"/><path d="M248 398 h64"/><path d="M400 398 h60"/>
+              </g>
+            </svg>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 920 404" role="img"
+             aria-labelledby="fig9-title fig9-desc" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /*  Standalone copy of a figure from mdhasibulhossain263-hk.github.io/hasain-academic-website
+        Colours are defined here so the file works on its own in any
+        viewer, and in Word, PowerPoint, Illustrator or Inkscape.       */
+    :root {
+      --font-display: Georgia, "Times New Roman", serif;
+      --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      --font-mono: Menlo, Consolas, monospace;
+      --fig-bg: #ffffff;
+      --fig-panel: #f5f3ef;
+      --fig-stroke: #b9b2a6;
+      --fig-ink: #1b2a3a;
+      --fig-ink-soft: #5c6b7a;
+      --fig-1: #16365c;
+      --fig-2: #1f7a6a;
+      --fig-3: #b4802a;
+      --fig-4: #9b4a2f;
+      --fig-5: #5a6b86;
+      --fig-grid: #e6e2da;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fig-bg: #131f2b; --fig-panel: #192835; --fig-stroke: #46596b;
+        --fig-ink: #dde6ee; --fig-ink-soft: #9aaab8;
+        --fig-1: #7fb0e8; --fig-2: #4fc0aa; --fig-3: #e0a94f;
+        --fig-4: #e08a6a; --fig-5: #93a6bd; --fig-grid: #24333f;
+      }
+    }
+    svg { background: var(--fig-bg); }
+  </style>
+
+          <title id="fig9-title">ASTM laboratory testing programme</title>
+          <desc id="fig9-desc">A soil or aggregate sample is characterised through
+            four groups of standard tests: classification and index properties,
+            compaction and bearing, strength and deformation, and aggregate
+            characterisation. Thirteen ASTM-standard procedures are listed. The
+            resulting parameters feed the finite element models and concrete mix
+            design.</desc>
+
+          <defs>
+            <marker id="arrowLab" viewBox="0 0 10 10" refX="8.5" refY="5"
+                    markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+              <path d="M0 1 L9 5 L0 9 z" fill="var(--fig-stroke)"/>
+            </marker>
+          </defs>
+
+          <!-- sample -->
+          <rect x="330" y="6" width="260" height="42" rx="7"
+                fill="var(--fig-1)" opacity="0.1"/>
+          <rect x="330" y="6" width="260" height="42" rx="7" fill="none"
+                stroke="var(--fig-1)" stroke-width="1.6"/>
+          <text x="460" y="33" text-anchor="middle" font-family="var(--font-display)"
+                font-size="15" font-weight="600" fill="var(--fig-ink)">Soil / aggregate sample</text>
+
+          <!-- distribution connectors -->
+          <g fill="none" stroke="var(--fig-stroke)" stroke-width="1.3">
+            <path d="M460 48 V60"/>
+            <path d="M109 60 H811"/>
+            <path d="M109 60 V76" marker-end="url(#arrowLab)"/>
+            <path d="M343 60 V76" marker-end="url(#arrowLab)"/>
+            <path d="M577 60 V76" marker-end="url(#arrowLab)"/>
+            <path d="M811 60 V76" marker-end="url(#arrowLab)"/>
+          </g>
+
+          <!-- ===== column headers ===== -->
+          <g>
+            <rect x="3" y="78" width="212" height="34" rx="6" fill="var(--fig-1)"/>
+            <text x="109" y="100" text-anchor="middle" font-family="var(--font-body)"
+                  font-size="11" font-weight="650" fill="#fff">Classification &amp; index</text>
+
+            <rect x="237" y="78" width="212" height="34" rx="6" fill="var(--fig-2)"/>
+            <text x="343" y="100" text-anchor="middle" font-family="var(--font-body)"
+                  font-size="11" font-weight="650" fill="#fff">Compaction &amp; bearing</text>
+
+            <rect x="471" y="78" width="212" height="34" rx="6" fill="var(--fig-3)"/>
+            <text x="577" y="100" text-anchor="middle" font-family="var(--font-body)"
+                  font-size="11" font-weight="650" fill="#fff">Strength &amp; deformation</text>
+
+            <rect x="705" y="78" width="212" height="34" rx="6" fill="var(--fig-4)"/>
+            <text x="811" y="100" text-anchor="middle" font-family="var(--font-body)"
+                  font-size="11" font-weight="650" fill="#fff">Aggregate characterisation</text>
+          </g>
+
+          <!-- ===== column 1 items ===== -->
+          <g>
+            <rect x="3" y="122" width="212" height="34" rx="5" fill="var(--fig-bg)"
+                  stroke="var(--fig-stroke)" stroke-width="1"/>
+            <text x="15" y="137" font-family="var(--font-body)" font-size="10.5"
+                  fill="var(--fig-ink)">Particle size distribution</text>
+            <text x="15" y="150" font-family="var(--font-mono)" font-size="9.5"
+                  fill="var(--fig-1)">ASTM D7928</text>
+
+            <rect x="3" y="162" width="212" height="34" rx="5" fill="var(--fig-bg)"
+                  stroke="var(--fig-stroke)" stroke-width="1"/>
+            <text x="15" y="177" font-family="var(--font-body)" font-size="10.5"
+                  fill="var(--fig-ink)">Hydrometer analysis</text>
+            <text x="15" y="190" font-family="var(--font-mono)" font-size="9.5"
+                  fill="var(--fig-1)">ASTM D7928</text>
+
+            <rect x="3" y="202" width="212" height="34" rx="5" fill="var(--fig-bg)"
+                  stroke="var(--fig-stroke)" stroke-width="1"/>
+            <text x="15" y="217" font-family="var(--font-body)" font-size="10.5"
+                  fill="var(--fig-ink)">Liquid limit &amp; plasticity index</text>
+            <text x="15" y="230" font-family="var(--font-mono)" font-size="9.5"
+                  fill="var(--fig-1)">ASTM D4318</text>
+
+            <rect x="3" y="242" width="212" height="34" rx="5" fill="var(--fig-bg)"
+                  stroke="var(--fig-stroke)" stroke-width="1"/>
+            <text x="15" y="257" font-family="var(--font-body)" font-size="10.5"
+                  fill="var(--fig-ink)">Specific gravity of solids</text>
+            <text x="15" y="270" font-family="var(--font-mono)" font-size="9.5"
+                  fill="var(--fig-1)">ASTM D854-23</text>
+          </g>
+
+          <!-- ===== column 2 items ===== -->
+          <g>
+            <rect x="237" y="122" width="212" height="34" rx="5" fill="var(--fig-bg)"
+                  stroke="var(--fig-stroke)" stroke-width="1"/>
+            <text x="249" y="137" font-family="var(--font-body)" font-size="10.5"
+                  fill="var(--fig-ink)">Standard Proctor compaction</text>
+            <text x="249" y="150" font-family="var(--font-mono)" font-size="9.5"
+                  fill="var(--fig-2)">ASTM D698</text>
+
+            <rect x="237" y="162" width="212" height="34" rx="5" fill="var(--fig-bg)"
+                  stroke="var(--fig-stroke)" stroke-width="1"/>
+            <text x="249" y="177" font-family="var(--font-body)" font-size="10.5"
+                  fill="var(--fig-ink)">California Bearing Ratio</text>
+            <text x="249" y="190" font-family="var(--font-mono)" font-size="9.5"
+                  fill="var(--fig-2)">CBR</text>
+
+            <rect x="237" y="208" width="212" height="68" rx="6"
+                  fill="var(--fig-2)" opacity="0.07"/>
+            <rect x="237" y="208" width="212" height="68" rx="6" fill="none"
+                  stroke="var(--fig-2)" stroke-width="1" stroke-dasharray="4 3"/>
+            <text x="249" y="228" font-family="var(--font-body)" font-size="9.5"
+                  font-weight="650" letter-spacing="0.07em" fill="var(--fig-2)">INSTRUMENTATION</text>
+            <text x="249" y="246" font-family="var(--font-body)" font-size="10"
+                  fill="var(--fig-ink-soft)">Custom apparatus designed</text>
+            <text x="249" y="259" font-family="var(--font-body)" font-size="10"
+                  fill="var(--fig-ink-soft)">where standard equipment did</text>
+            <text x="249" y="272" font-family="var(--font-body)" font-size="10"
+                  fill="var(--fig-ink-soft)">not cover the measurement.</text>
+          </g>
+
+          <!-- ===== column 3 items ===== -->
+          <g>
+            <rect x="471" y="122" width="212" height="34" rx="5" fill="var(--fig-bg)"
+                  stroke="var(--fig-stroke)" stroke-width="1"/>
+            <text x="483" y="137" font-family="var(--font-body)" font-size="10.5"
+                  fill="var(--fig-ink)">Unconfined compressive strength</text>
+            <text x="483" y="150" font-family="var(--font-mono)" font-size="9.5"
+                  fill="var(--fig-3)">ASTM D2166</text>
+
+            <rect x="471" y="162" width="212" height="34" rx="5" fill="var(--fig-bg)"
+                  stroke="var(--fig-stroke)" stroke-width="1"/>
+            <text x="483" y="177" font-family="var(--font-body)" font-size="10.5"
+                  fill="var(--fig-ink)">Direct shear</text>
+            <text x="483" y="190" font-family="var(--font-mono)" font-size="9.5"
+                  fill="var(--fig-3)">ASTM D3080</text>
+
+            <rect x="471" y="202" width="212" height="34" rx="5" fill="var(--fig-bg)"
+                  stroke="var(--fig-stroke)" stroke-width="1"/>
+            <text x="483" y="217" font-family="var(--font-body)" font-size="10.5"
+                  fill="var(--fig-ink)">Triaxial compression</text>
+            <text x="483" y="230" font-family="var(--font-mono)" font-size="9.5"
+                  fill="var(--fig-3)">ASTM D4767</text>
+
+            <rect x="471" y="242" width="212" height="34" rx="6"
+                  fill="var(--fig-3)" opacity="0.07"/>
+            <rect x="471" y="242" width="212" height="34" rx="6" fill="none"
+                  stroke="var(--fig-3)" stroke-width="1" stroke-dasharray="4 3"/>
+            <text x="483" y="263" font-family="var(--font-body)" font-size="10"
+                  fill="var(--fig-ink-soft)">Shear strength parameters c′, φ′</text>
+          </g>
+
+          <!-- ===== column 4 items ===== -->
+          <g>
+            <rect x="705" y="122" width="212" height="34" rx="5" fill="var(--fig-bg)"
+                  stroke="var(--fig-stroke)" stroke-width="1"/>
+            <text x="717" y="137" font-family="var(--font-body)" font-size="10.5"
+                  fill="var(--fig-ink)">Sieve analysis, fine &amp; coarse</text>
+            <text x="717" y="150" font-family="var(--font-mono)" font-size="9.5"
+                  fill="var(--fig-4)">ASTM C136</text>
+
+            <rect x="705" y="162" width="212" height="34" rx="5" fill="var(--fig-bg)"
+                  stroke="var(--fig-stroke)" stroke-width="1"/>
+            <text x="717" y="177" font-family="var(--font-body)" font-size="10.5"
+                  fill="var(--fig-ink)">Absorption, coarse aggregate</text>
+            <text x="717" y="190" font-family="var(--font-mono)" font-size="9.5"
+                  fill="var(--fig-4)">ASTM C127</text>
+
+            <rect x="705" y="202" width="212" height="34" rx="5" fill="var(--fig-bg)"
+                  stroke="var(--fig-stroke)" stroke-width="1"/>
+            <text x="717" y="217" font-family="var(--font-body)" font-size="10.5"
+                  fill="var(--fig-ink)">Bulk specific gravity</text>
+            <text x="717" y="230" font-family="var(--font-mono)" font-size="9.5"
+                  fill="var(--fig-4)">ASTM C127</text>
+
+            <rect x="705" y="242" width="212" height="34" rx="5" fill="var(--fig-bg)"
+                  stroke="var(--fig-stroke)" stroke-width="1"/>
+            <text x="717" y="257" font-family="var(--font-body)" font-size="10.5"
+                  fill="var(--fig-ink)">Unit weight &amp; voids in aggregate</text>
+            <text x="717" y="270" font-family="var(--font-mono)" font-size="9.5"
+                  fill="var(--fig-4)">ASTM C29</text>
+          </g>
+
+          <!-- converge -->
+          <g fill="none" stroke="var(--fig-stroke)" stroke-width="1.3">
+            <path d="M109 276 V294 H460"/>
+            <path d="M343 276 V294"/>
+            <path d="M577 276 V294"/>
+            <path d="M811 276 V294 H460"/>
+            <path d="M460 294 V312" marker-end="url(#arrowLab)"/>
+          </g>
+
+          <!-- outputs -->
+          <rect x="120" y="316" width="680" height="76" rx="8"
+                fill="var(--fig-2)" opacity="0.08"/>
+          <rect x="120" y="316" width="680" height="76" rx="8" fill="none"
+                stroke="var(--fig-2)" stroke-width="1.5"/>
+          <text x="460" y="340" text-anchor="middle" font-family="var(--font-body)"
+                font-size="9.5" font-weight="650" letter-spacing="0.09em"
+                fill="var(--fig-2)">PARAMETERS FEED FORWARD INTO</text>
+          <text x="460" y="363" text-anchor="middle" font-family="var(--font-display)"
+                font-size="14.5" font-weight="600" fill="var(--fig-ink)">PLAXIS 3D finite element models  ·  concrete mix design</text>
+          <text x="460" y="382" text-anchor="middle" font-family="var(--font-body)"
+                font-size="10.5" fill="var(--fig-ink-soft)">Measured properties, not assumed values, as model input</text>
+        </svg>

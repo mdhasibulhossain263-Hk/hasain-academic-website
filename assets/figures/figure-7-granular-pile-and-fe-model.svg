@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 920 436" role="img"
+                 aria-labelledby="fig7-title fig7-desc" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /*  Standalone copy of a figure from mdhasibulhossain263-hk.github.io/hasain-academic-website
+        Colours are defined here so the file works on its own in any
+        viewer, and in Word, PowerPoint, Illustrator or Inkscape.       */
+    :root {
+      --font-display: Georgia, "Times New Roman", serif;
+      --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      --font-mono: Menlo, Consolas, monospace;
+      --fig-bg: #ffffff;
+      --fig-panel: #f5f3ef;
+      --fig-stroke: #b9b2a6;
+      --fig-ink: #1b2a3a;
+      --fig-ink-soft: #5c6b7a;
+      --fig-1: #16365c;
+      --fig-2: #1f7a6a;
+      --fig-3: #b4802a;
+      --fig-4: #9b4a2f;
+      --fig-5: #5a6b86;
+      --fig-grid: #e6e2da;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fig-bg: #131f2b; --fig-panel: #192835; --fig-stroke: #46596b;
+        --fig-ink: #dde6ee; --fig-ink-soft: #9aaab8;
+        --fig-1: #7fb0e8; --fig-2: #4fc0aa; --fig-3: #e0a94f;
+        --fig-4: #e08a6a; --fig-5: #93a6bd; --fig-grid: #24333f;
+      }
+    }
+    svg { background: var(--fig-bg); }
+  </style>
+
+              <title id="fig7-title">Granular pile ground improvement and its finite element model</title>
+              <desc id="fig7-desc">Left: a cross-section through soft compressible
+                soil showing a pad footing transferring load to a reclaimed asphalt
+                pavement infused granular pile, which carries the load to a firmer
+                bearing stratum. Right: the corresponding axisymmetric finite element
+                mesh built in PLAXIS 3D, with the axis of symmetry, roller and fixed
+                boundary conditions and the applied surface load marked.</desc>
+
+              <defs>
+                <pattern id="aggPat" width="11" height="11" patternUnits="userSpaceOnUse">
+                  <circle cx="3" cy="3" r="2.1" fill="var(--fig-3)" opacity="0.75"/>
+                  <circle cx="8.5" cy="8" r="1.6" fill="var(--fig-4)" opacity="0.65"/>
+                </pattern>
+                <pattern id="softPat" width="9" height="9" patternUnits="userSpaceOnUse">
+                  <path d="M0 9 L9 0" stroke="var(--fig-5)" stroke-width="0.7" opacity="0.4"/>
+                </pattern>
+                <pattern id="rockPat" width="12" height="12" patternUnits="userSpaceOnUse">
+                  <path d="M0 12 L12 0 M-3 3 L3 -3 M9 15 L15 9" stroke="var(--fig-5)"
+                        stroke-width="1.1" opacity="0.6"/>
+                </pattern>
+                <marker id="arrowLoad" viewBox="0 0 10 10" refX="8.5" refY="5"
+                        markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                  <path d="M0 1 L9 5 L0 9 z" fill="var(--fig-4)"/>
+                </marker>
+                <marker id="arrowThin" viewBox="0 0 10 10" refX="8.5" refY="5"
+                        markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                  <path d="M0 1.5 L9 5 L0 8.5 z" fill="var(--fig-ink-soft)"/>
+                </marker>
+              </defs>
+
+              <!-- ===== LEFT: physical cross-section ===== -->
+              <text x="20" y="22" font-family="var(--font-body)" font-size="10"
+                    font-weight="600" letter-spacing="0.1em" fill="var(--fig-ink-soft)">A   GROUND IMPROVEMENT SCHEME</text>
+
+              <!-- soil body -->
+              <rect x="20" y="108" width="400" height="212" fill="url(#softPat)"/>
+              <rect x="20" y="108" width="400" height="212" fill="var(--fig-5)" opacity="0.07"/>
+              <rect x="20" y="320" width="400" height="66" fill="url(#rockPat)"/>
+              <rect x="20" y="320" width="400" height="66" fill="var(--fig-5)" opacity="0.14"/>
+              <rect x="20" y="108" width="400" height="278" fill="none"
+                    stroke="var(--fig-stroke)" stroke-width="1.2"/>
+              <path d="M20 320 H420" stroke="var(--fig-stroke)" stroke-width="1.4"/>
+
+              <!-- ground line -->
+              <path d="M20 108 H420" stroke="var(--fig-ink)" stroke-width="1.8"/>
+
+              <!-- footing -->
+              <rect x="150" y="84" width="140" height="24" rx="2"
+                    fill="var(--fig-1)" opacity="0.9"/>
+              <text x="220" y="100" text-anchor="middle" font-family="var(--font-body)"
+                    font-size="10" font-weight="600" fill="#fff">PAD FOOTING</text>
+
+              <!-- load arrows -->
+              <g stroke="var(--fig-4)" stroke-width="2" marker-end="url(#arrowLoad)">
+                <path d="M170 50 V78"/><path d="M196 50 V78"/><path d="M222 50 V78"/>
+                <path d="M248 50 V78"/><path d="M274 50 V78"/>
+              </g>
+              <text x="300" y="60" font-family="var(--font-body)" font-size="11"
+                    font-weight="650" fill="var(--fig-4)">Applied load</text>
+
+              <!-- granular pile -->
+              <rect x="190" y="108" width="60" height="212" fill="url(#aggPat)"/>
+              <rect x="190" y="108" width="60" height="212" fill="none"
+                    stroke="var(--fig-3)" stroke-width="1.8"/>
+
+              <!-- load transfer arrows inside pile -->
+              <g stroke="var(--fig-4)" stroke-width="1.2" opacity="0.8"
+                 marker-end="url(#arrowThin)" fill="none">
+                <path d="M220 130 V170"/><path d="M220 186 V226"/><path d="M220 242 V282"/>
+              </g>
+
+              <!-- lateral confinement arrows -->
+              <g stroke="var(--fig-2)" stroke-width="1.2" marker-end="url(#arrowThin)">
+                <path d="M165 200 H186"/><path d="M275 200 H254"/>
+              </g>
+              <text x="128" y="178" font-family="var(--font-body)" font-size="9.5"
+                    fill="var(--fig-2)">lateral</text>
+              <text x="128" y="190" font-family="var(--font-body)" font-size="9.5"
+                    fill="var(--fig-2)">confinement</text>
+
+              <!-- labels with leaders -->
+              <g stroke="var(--fig-ink-soft)" stroke-width="0.9" fill="none">
+                <path d="M250 136 H300"/>
+                <path d="M128 258 H176"/>
+              </g>
+              <text x="306" y="133" font-family="var(--font-body)" font-size="10.5"
+                    font-weight="650" fill="var(--fig-3)">RAP-infused</text>
+              <text x="306" y="146" font-family="var(--font-body)" font-size="10.5"
+                    font-weight="650" fill="var(--fig-3)">granular pile</text>
+
+              <text x="30" y="252" font-family="var(--font-body)" font-size="10.5"
+                    fill="var(--fig-ink-soft)">Soft compressible</text>
+              <text x="30" y="265" font-family="var(--font-body)" font-size="10.5"
+                    fill="var(--fig-ink-soft)">soil</text>
+
+              <text x="30" y="348" font-family="var(--font-body)" font-size="10.5"
+                    fill="var(--fig-ink-soft)">Firmer bearing stratum</text>
+
+              <!-- dimensions -->
+              <g stroke="var(--fig-ink-soft)" stroke-width="0.9">
+                <path d="M190 400 H250" marker-start="url(#arrowThin)" marker-end="url(#arrowThin)"/>
+                <path d="M190 392 V408"/><path d="M250 392 V408"/>
+              </g>
+              <text x="220" y="422" text-anchor="middle" font-family="var(--font-body)"
+                    font-size="10" font-style="italic" fill="var(--fig-ink-soft)">D (pile diameter)</text>
+
+              <g stroke="var(--fig-ink-soft)" stroke-width="0.9">
+                <path d="M436 108 V320" marker-start="url(#arrowThin)" marker-end="url(#arrowThin)"/>
+                <path d="M428 108 H444"/><path d="M428 320 H444"/>
+              </g>
+              <text x="452" y="218" font-family="var(--font-body)" font-size="10"
+                    font-style="italic" fill="var(--fig-ink-soft)">L</text>
+
+              <!-- ===== RIGHT: FE mesh ===== -->
+              <text x="520" y="22" font-family="var(--font-body)" font-size="10"
+                    font-weight="600" letter-spacing="0.1em" fill="var(--fig-ink-soft)">B   AXISYMMETRIC FINITE ELEMENT MODEL — PLAXIS 3D</text>
+
+              <!-- mesh background -->
+              <rect x="560" y="108" width="330" height="212" fill="var(--fig-5)" opacity="0.05"/>
+              <!-- pile region -->
+              <rect x="560" y="108" width="55" height="212" fill="var(--fig-3)" opacity="0.18"/>
+
+              <!-- mesh grid -->
+              <g stroke="var(--fig-grid)" stroke-width="0.9">
+                <path d="M560 108 V320"/><path d="M615 108 V320"/><path d="M670 108 V320"/>
+                <path d="M725 108 V320"/><path d="M780 108 V320"/><path d="M835 108 V320"/>
+                <path d="M890 108 V320"/>
+                <path d="M560 108 H890"/><path d="M560 161 H890"/><path d="M560 214 H890"/>
+                <path d="M560 267 H890"/><path d="M560 320 H890"/>
+              </g>
+              <!-- triangular subdivision (typical FE discretisation) -->
+              <g stroke="var(--fig-grid)" stroke-width="0.7" opacity="0.85">
+                <path d="M560 108 L615 161 M615 108 L670 161 M670 108 L725 161
+                         M725 108 L780 161 M780 108 L835 161 M835 108 L890 161"/>
+                <path d="M560 161 L615 214 M615 161 L670 214 M670 161 L725 214
+                         M725 161 L780 214 M780 161 L835 214 M835 161 L890 214"/>
+                <path d="M560 214 L615 267 M615 214 L670 267 M670 214 L725 267
+                         M725 214 L780 267 M780 214 L835 267 M835 214 L890 267"/>
+                <path d="M560 267 L615 320 M615 267 L670 320 M670 267 L725 320
+                         M725 267 L780 320 M780 267 L835 320 M835 267 L890 320"/>
+              </g>
+              <rect x="560" y="108" width="330" height="212" fill="none"
+                    stroke="var(--fig-stroke)" stroke-width="1.3"/>
+              <rect x="560" y="108" width="55" height="212" fill="none"
+                    stroke="var(--fig-3)" stroke-width="1.8"/>
+
+              <!-- axis of symmetry -->
+              <path d="M560 86 V342" stroke="var(--fig-1)" stroke-width="1.2"
+                    stroke-dasharray="10 3 2 3"/>
+              <text x="540" y="94" text-anchor="end" font-family="var(--font-body)"
+                    font-size="9.5" fill="var(--fig-1)">axis of</text>
+              <text x="540" y="106" text-anchor="end" font-family="var(--font-body)"
+                    font-size="9.5" fill="var(--fig-1)">symmetry</text>
+              <path d="M544 102 H557" stroke="var(--fig-1)" stroke-width="0.9" fill="none"/>
+
+              <!-- applied load -->
+              <g stroke="var(--fig-4)" stroke-width="1.8" marker-end="url(#arrowLoad)">
+                <path d="M568 76 V102"/><path d="M588 76 V102"/><path d="M608 76 V102"/>
+              </g>
+              <text x="624" y="86" font-family="var(--font-body)" font-size="10"
+                    font-weight="650" fill="var(--fig-4)">q</text>
+
+              <!-- boundary conditions: rollers on right, fixed at base -->
+              <g fill="none" stroke="var(--fig-5)" stroke-width="1.1">
+                <circle cx="896" cy="135" r="4"/><circle cx="896" cy="188" r="4"/>
+                <circle cx="896" cy="241" r="4"/><circle cx="896" cy="294" r="4"/>
+              </g>
+              <g stroke="var(--fig-5)" stroke-width="1.1">
+                <path d="M566 328 l-8 10 M588 328 l-8 10 M610 328 l-8 10 M632 328 l-8 10
+                         M654 328 l-8 10 M676 328 l-8 10 M698 328 l-8 10 M720 328 l-8 10
+                         M742 328 l-8 10 M764 328 l-8 10 M786 328 l-8 10 M808 328 l-8 10
+                         M830 328 l-8 10 M852 328 l-8 10 M874 328 l-8 10 M896 328 l-8 10"/>
+                <path d="M560 326 H890"/>
+              </g>
+
+              <text x="588" y="358" text-anchor="middle" font-family="var(--font-body)"
+                    font-size="9.5" fill="var(--fig-3)" font-weight="650">pile</text>
+              <text x="750" y="358" text-anchor="middle" font-family="var(--font-body)"
+                    font-size="9.5" fill="var(--fig-ink-soft)">surrounding soil continuum</text>
+              <text x="588" y="344" text-anchor="middle" font-family="var(--font-body)"
+                    font-size="9.5" fill="var(--fig-5)"> </text>
+              <text x="910" y="188" text-anchor="end" font-family="var(--font-body)"
+                    font-size="9.5" fill="var(--fig-5)" transform="rotate(90 910 188)">roller boundary</text>
+              <text x="750" y="344" text-anchor="middle" font-family="var(--font-body)"
+                    font-size="9.5" fill="var(--fig-5)">fixed base</text>
+
+              <!-- model outputs -->
+              <rect x="500" y="372" width="412" height="58" rx="7"
+                    fill="var(--fig-1)" opacity="0.06"/>
+              <rect x="500" y="372" width="412" height="58" rx="7" fill="none"
+                    stroke="var(--fig-1)" stroke-width="1.1" stroke-dasharray="4 3"/>
+              <text x="516" y="391" font-family="var(--font-body)" font-size="9.5"
+                    font-weight="600" letter-spacing="0.08em" fill="var(--fig-1)">MODEL OUTPUTS</text>
+              <text x="516" y="409" font-family="var(--font-body)" font-size="10"
+                    fill="var(--fig-ink-soft)">Settlement · load–deformation response</text>
+              <text x="516" y="423" font-family="var(--font-body)" font-size="10"
+                    fill="var(--fig-ink-soft)">Stress distribution · bearing capacity</text>
+            </svg>

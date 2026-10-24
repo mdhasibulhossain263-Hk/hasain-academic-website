@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 920 320" role="img"
+               aria-labelledby="fig5-title fig5-desc" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /*  Standalone copy of a figure from mdhasibulhossain263-hk.github.io/hasain-academic-website
+        Colours are defined here so the file works on its own in any
+        viewer, and in Word, PowerPoint, Illustrator or Inkscape.       */
+    :root {
+      --font-display: Georgia, "Times New Roman", serif;
+      --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      --font-mono: Menlo, Consolas, monospace;
+      --fig-bg: #ffffff;
+      --fig-panel: #f5f3ef;
+      --fig-stroke: #b9b2a6;
+      --fig-ink: #1b2a3a;
+      --fig-ink-soft: #5c6b7a;
+      --fig-1: #16365c;
+      --fig-2: #1f7a6a;
+      --fig-3: #b4802a;
+      --fig-4: #9b4a2f;
+      --fig-5: #5a6b86;
+      --fig-grid: #e6e2da;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fig-bg: #131f2b; --fig-panel: #192835; --fig-stroke: #46596b;
+        --fig-ink: #dde6ee; --fig-ink-soft: #9aaab8;
+        --fig-1: #7fb0e8; --fig-2: #4fc0aa; --fig-3: #e0a94f;
+        --fig-4: #e08a6a; --fig-5: #93a6bd; --fig-grid: #24333f;
+      }
+    }
+    svg { background: var(--fig-bg); }
+  </style>
+
+            <title id="fig5-title">Material cost and water absorption against replacement level</title>
+            <desc id="fig5-desc">Two panels. The left panel shows material cost per
+              cylinder falling steadily from 21.85 taka at 0 per cent replacement to
+              20.48 taka at 25 per cent. The right panel shows water absorption
+              rising from 2.63 per cent to 4.32 per cent over the same range, which
+              is a durability penalty.</desc>
+
+            <text x="90" y="28" font-family="var(--font-body)" font-size="10"
+                  font-weight="600" letter-spacing="0.1em" fill="var(--fig-ink-soft)">A</text>
+            <text x="110" y="28" font-family="var(--font-body)" font-size="11.5"
+                  font-weight="600" fill="var(--fig-ink)">Material cost per cylinder (tk) — falls</text>
+
+            <g stroke="var(--fig-grid)" stroke-width="1"><path d="M90 250.0 H430 M90 205.0 H430 M90 160.0 H430 M90 115.0 H430 M90 70.0 H430"/></g>
+            <text x="82" y="253.5" text-anchor="end" font-family="var(--font-body)" font-size="9" fill="var(--fig-ink-soft)">20.0</text>
+            <text x="82" y="208.5" text-anchor="end" font-family="var(--font-body)" font-size="9" fill="var(--fig-ink-soft)">20.5</text>
+            <text x="82" y="163.5" text-anchor="end" font-family="var(--font-body)" font-size="9" fill="var(--fig-ink-soft)">21.0</text>
+            <text x="82" y="118.5" text-anchor="end" font-family="var(--font-body)" font-size="9" fill="var(--fig-ink-soft)">21.5</text>
+            <text x="82" y="73.5" text-anchor="end" font-family="var(--font-body)" font-size="9" fill="var(--fig-ink-soft)">22.0</text>
+            <rect x="105.3" y="83.2" width="26" height="166.8" rx="2" fill="var(--fig-3)" opacity="0.85"/>
+            <text x="118.3" y="266" text-anchor="middle" font-family="var(--font-body)" font-size="9" fill="var(--fig-ink-soft)">0</text>
+            <rect x="162.0" y="108.0" width="26" height="142.0" rx="2" fill="var(--fig-3)" opacity="0.85"/>
+            <text x="175.0" y="266" text-anchor="middle" font-family="var(--font-body)" font-size="9" fill="var(--fig-ink-soft)">5</text>
+            <rect x="218.7" y="132.7" width="26" height="117.3" rx="2" fill="var(--fig-3)" opacity="0.85"/>
+            <text x="231.7" y="266" text-anchor="middle" font-family="var(--font-body)" font-size="9" fill="var(--fig-ink-soft)">10</text>
+            <rect x="275.3" y="157.6" width="26" height="92.4" rx="2" fill="var(--fig-3)" opacity="0.85"/>
+            <text x="288.3" y="266" text-anchor="middle" font-family="var(--font-body)" font-size="9" fill="var(--fig-ink-soft)">15</text>
+            <rect x="332.0" y="182.3" width="26" height="67.7" rx="2" fill="var(--fig-3)" opacity="0.85"/>
+            <text x="345.0" y="266" text-anchor="middle" font-family="var(--font-body)" font-size="9" fill="var(--fig-ink-soft)">20</text>
+            <rect x="388.7" y="207.1" width="26" height="42.9" rx="2" fill="var(--fig-3)" opacity="0.85"/>
+            <text x="401.7" y="266" text-anchor="middle" font-family="var(--font-body)" font-size="9" fill="var(--fig-ink-soft)">25</text>
+            <polyline points="118.3,83.2 175.0,108.0 231.7,132.7 288.3,157.6 345.0,182.3 401.7,207.1" fill="none" stroke="var(--fig-3)" stroke-width="1.6" stroke-linejoin="round"/>
+            <circle cx="118.3" cy="83.2" r="3" fill="var(--fig-bg)" stroke="var(--fig-3)" stroke-width="1.6"/>
+            <circle cx="175.0" cy="108.0" r="3" fill="var(--fig-bg)" stroke="var(--fig-3)" stroke-width="1.6"/>
+            <circle cx="231.7" cy="132.7" r="3" fill="var(--fig-bg)" stroke="var(--fig-3)" stroke-width="1.6"/>
+            <circle cx="288.3" cy="157.6" r="3" fill="var(--fig-bg)" stroke="var(--fig-3)" stroke-width="1.6"/>
+            <circle cx="345.0" cy="182.3" r="3" fill="var(--fig-bg)" stroke="var(--fig-3)" stroke-width="1.6"/>
+            <circle cx="401.7" cy="207.1" r="3" fill="var(--fig-bg)" stroke="var(--fig-3)" stroke-width="1.6"/>
+            <path d="M90 70 V250 H430" fill="none" stroke="var(--fig-stroke)" stroke-width="1.3"/>
+            <text x="260.0" y="284" text-anchor="middle" font-family="var(--font-body)" font-size="9.5" fill="var(--fig-ink-soft)">RHA replacement (%)</text>
+
+            <text x="560" y="28" font-family="var(--font-body)" font-size="10"
+                  font-weight="600" letter-spacing="0.1em" fill="var(--fig-ink-soft)">B</text>
+            <text x="580" y="28" font-family="var(--font-body)" font-size="11.5"
+                  font-weight="600" fill="var(--fig-ink)">Water absorption (%) — rises</text>
+
+            <g stroke="var(--fig-grid)" stroke-width="1"><path d="M560 250.0 H890 M560 205.0 H890 M560 160.0 H890 M560 115.0 H890 M560 70.0 H890"/></g>
+            <text x="552" y="253.5" text-anchor="end" font-family="var(--font-body)" font-size="9" fill="var(--fig-ink-soft)">2.0</text>
+            <text x="552" y="208.5" text-anchor="end" font-family="var(--font-body)" font-size="9" fill="var(--fig-ink-soft)">2.6</text>
+            <text x="552" y="163.5" text-anchor="end" font-family="var(--font-body)" font-size="9" fill="var(--fig-ink-soft)">3.2</text>
+            <text x="552" y="118.5" text-anchor="end" font-family="var(--font-body)" font-size="9" fill="var(--fig-ink-soft)">3.9</text>
+            <text x="552" y="73.5" text-anchor="end" font-family="var(--font-body)" font-size="9" fill="var(--fig-ink-soft)">4.5</text>
+            <rect x="574.5" y="204.6" width="26" height="45.4" rx="2" fill="var(--fig-4)" opacity="0.85"/>
+            <text x="587.5" y="266" text-anchor="middle" font-family="var(--font-body)" font-size="9" fill="var(--fig-ink-soft)">0</text>
+            <rect x="629.5" y="223.1" width="26" height="26.9" rx="2" fill="var(--fig-4)" opacity="0.85"/>
+            <text x="642.5" y="266" text-anchor="middle" font-family="var(--font-body)" font-size="9" fill="var(--fig-ink-soft)">5</text>
+            <rect x="684.5" y="177.1" width="26" height="72.9" rx="2" fill="var(--fig-4)" opacity="0.85"/>
+            <text x="697.5" y="266" text-anchor="middle" font-family="var(--font-body)" font-size="9" fill="var(--fig-ink-soft)">10</text>
+            <rect x="739.5" y="145.7" width="26" height="104.3" rx="2" fill="var(--fig-4)" opacity="0.85"/>
+            <text x="752.5" y="266" text-anchor="middle" font-family="var(--font-body)" font-size="9" fill="var(--fig-ink-soft)">15</text>
+            <rect x="794.5" y="106.0" width="26" height="144.0" rx="2" fill="var(--fig-4)" opacity="0.85"/>
+            <text x="807.5" y="266" text-anchor="middle" font-family="var(--font-body)" font-size="9" fill="var(--fig-ink-soft)">20</text>
+            <rect x="849.5" y="83.0" width="26" height="167.0" rx="2" fill="var(--fig-4)" opacity="0.85"/>
+            <text x="862.5" y="266" text-anchor="middle" font-family="var(--font-body)" font-size="9" fill="var(--fig-ink-soft)">25</text>
+            <polyline points="587.5,204.6 642.5,223.1 697.5,177.1 752.5,145.7 807.5,106.0 862.5,83.0" fill="none" stroke="var(--fig-4)" stroke-width="1.6" stroke-linejoin="round"/>
+            <circle cx="587.5" cy="204.6" r="3" fill="var(--fig-bg)" stroke="var(--fig-4)" stroke-width="1.6"/>
+            <circle cx="642.5" cy="223.1" r="3" fill="var(--fig-bg)" stroke="var(--fig-4)" stroke-width="1.6"/>
+            <circle cx="697.5" cy="177.1" r="3" fill="var(--fig-bg)" stroke="var(--fig-4)" stroke-width="1.6"/>
+            <circle cx="752.5" cy="145.7" r="3" fill="var(--fig-bg)" stroke="var(--fig-4)" stroke-width="1.6"/>
+            <circle cx="807.5" cy="106.0" r="3" fill="var(--fig-bg)" stroke="var(--fig-4)" stroke-width="1.6"/>
+            <circle cx="862.5" cy="83.0" r="3" fill="var(--fig-bg)" stroke="var(--fig-4)" stroke-width="1.6"/>
+            <path d="M560 70 V250 H890" fill="none" stroke="var(--fig-stroke)" stroke-width="1.3"/>
+            <text x="725.0" y="284" text-anchor="middle" font-family="var(--font-body)" font-size="9.5" fill="var(--fig-ink-soft)">RHA replacement (%)</text>
+
+            <rect x="90" y="286" width="800" height="28" rx="6"
+                  fill="var(--fig-3)" opacity="0.08"/>
+            <rect x="90" y="286" width="800" height="28" rx="6" fill="none"
+                  stroke="var(--fig-3)" stroke-width="1" stroke-dasharray="4 3"/>
+            <text x="490" y="304" text-anchor="middle" font-family="var(--font-body)"
+                  font-size="10.5" fill="var(--fig-ink-soft)">The two curves run in opposite directions: the cost benefit grows with replacement, the durability penalty grows with it too.</text>
+          </svg>
