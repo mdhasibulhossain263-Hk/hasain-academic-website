@@ -1,0 +1,9 @@
+# Allow all search engines to index the site.
+User-agent: *
+Allow: /
+
+# The _parts folder holds build fragments, not real pages.
+# Keep it out of search results.
+Disallow: /_parts/
+
+Sitemap: https://mdhasibulhossain263-hk.github.io/hasain-academic-website/sitemap.xml
